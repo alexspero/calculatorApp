@@ -1,16 +1,5 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  text-align: right;
 }
 
 .App-header {
@@ -28,11 +17,45 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.calculator-overall {
+  background-color: black;
+  padding: 10px;
+  border-radius: 10%;
+}
+
+.special-button {
+  background-color: darkgray;
+  border-radius: 15px;
+  color: black;
+  width: 2rem;
+  margin: 1px;
+}
+
+.number-button {
+  background-color: grey;
+  color: white;
+  border-radius: 15px;
+  width: 2rem;
+  margin: 1px;
+}
+
+.zero-button {
+  background-color: grey;
+  color: white;
+  border-radius: 15px;
+  width: 4rem;
+  margin: 1px;
+}
+
+.operator-button {
+  background-color: orange;
+  color: white;
+  border-radius: 15px;
+  width: 2rem;
+  margin: 1px;
+}
+
+.number {
+  color: white;
+  display: contents;
 }
